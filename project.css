@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('bg.gif');
+}
+
+.image-container {
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center; /* Center the image within the container */
+    justify-content: center;
+}
+
+img {
+    max-width: 100%; /* Make sure the image doesn't exceed the container width */
+    height: auto; /* Allow the image to scale proportionally */
+    display: block; /* Remove any extra spacing around the image */
+    align-items: center;
+}
+
+.icon-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button-text {
+    margin-top: 10px; /* Adjust the spacing between the image and text */
+    font-size: 25px; /* Adjust the font size as needed */
+    margin-bottom: 20px;
+    color: rgb(33, 28, 37);
+    font-weight: 100;
+    font-family: 'Luckiest Guy', cursive;
+}
